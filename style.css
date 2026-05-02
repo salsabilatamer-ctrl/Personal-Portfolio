@@ -170,13 +170,13 @@ img{
 }
 
 /* ================= achivements and interests================ */
-#services{
+#Achievements{
     padding: 30px 0;
     margin-bottom: 100px;
     
 }
 
-.services-list{
+.Achievements-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
@@ -184,7 +184,7 @@ img{
    
 }
 
-.services-list div{
+.Achievements-list div{
     background: #a6a9cc;
     padding: 40px;
     font-size: 13px;
@@ -192,17 +192,17 @@ img{
     transition: background 0.5s, transform 0.5s;
 }
 
-.services-list div i{
+.Achievements-list div i{
     font-size: 50px;
     margin-bottom: 30px;
 }
 
-.services-list div h2{
+.Achievements-list div h2{
     font-size: 25px;
     margin-bottom: 15px;
 }
 
-.services-list div a{
+.Achievements-list div a{
     text-decoration: none;
     color: #fff;
     font-size: 60px;
@@ -210,7 +210,7 @@ img{
     display: inline-block;
 }
 
-.services-list div:hover{
+.Achievements-list div:hover{
     background: #64340A;
     transform: translateY(-10px);
 }
