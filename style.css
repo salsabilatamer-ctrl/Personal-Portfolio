@@ -23,7 +23,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/4.png);
+    background-image: url(images/background1.png);
     background-size: cover;
     background-position: center;
 }
@@ -433,7 +433,7 @@ nav .fa-solid {
     .work-list {
         grid-template-columns: 1fr;  
     }
-    #header{background-image: url(images/phone2.png);}
+    #header{background-image: url(images/background2.png);}
 }
 
 
