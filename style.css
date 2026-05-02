@@ -429,8 +429,8 @@ nav .fa-solid {
     }
 
     
-    .services-list,
-    .work-list {
+    .Achivements-list,
+    .Highlights-list {
         grid-template-columns: 1fr;  
     }
     #header{background-image: url(images/background2.png);}
