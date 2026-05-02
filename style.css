@@ -137,7 +137,7 @@ img{
     content: "";
     width: 0;
     height: 3px;
-    background: #64340A;
+    background: #6fbfc8;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -162,7 +162,7 @@ img{
 }
 
 .tab-contents ul li span{
-    color:#8E5423;
+    color:#6fbfc8;
     font-size:14px;
 }
 #about {
@@ -211,7 +211,7 @@ img{
 }
 
 .Achievements-list div:hover{
-    background: #64340A;
+    background: #6fbfc8;
     transform: translateY(-10px);
 }
 
