@@ -74,7 +74,7 @@ nav ul li a:hover::after{
 
 .header-text{
     margin-top: 20%;
-    font-size:  clamp(16px, 3vw, 30px);
+    font-size: clamp(16px, 3vw, 30px);
 }
 
 .header-text h1{
@@ -85,15 +85,18 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color:#a6a9cc;
 }
+
 .header-text h2{
     font-size: clamp(14px, 3vw, 22px);
     margin-top:2%;
 }
+
 img{
     max-width: 100%;
     height: auto;
     display: block;
 }
+
 
 /* ================= About ================= */
 #about{
@@ -137,7 +140,7 @@ img{
     content: "";
     width: 0;
     height: 3px;
-    background: #6fbfc8;
+    background: #d2b89f;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -162,7 +165,7 @@ img{
 }
 
 .tab-contents ul li span{
-    color:#6fbfc8;
+    color:#d2b89f;
     font-size:14px;
 }
 #about {
@@ -211,7 +214,7 @@ img{
 }
 
 .Achievements-list div:hover{
-    background: #6fbfc8;
+    background: #d2b89f;
     transform: translateY(-10px);
 }
 
@@ -355,86 +358,69 @@ form input, form textarea{
 
 /* ================= Responsive ================= */
 
-nav .fa-solid {
-    display: none;
+nav .fa-solid { 
+    display: none; 
 }
 
-@media only screen and (max-width: 768px) {
-  
-    .header-text {
-        margin-top: 13%; 
-        font-size: 16px;
-    }
-
-    .header-text h1 {
-        font-size: 30px;
-    }
-
-   
-    nav .fa-solid {
-        display: block;
-        font-size: 25px;
-        color: #fff;             
-        cursor: pointer;        
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        z-index: 1000;
-    }
-
-  
-    nav ul .fa-circle-xmark {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        font-size: 30px;
-        color: #fff;
-        cursor: pointer;
-    }
-
-  
-    nav ul {
-        background: #a6a9cc;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
+@media only screen and (max-width: 768px) { 
+    .header-text { 
+        margin-top:13%; 
+        font-size: 16px; 
+    } 
+    .header-text h1 { 
+        font-size: 30px; 
+    } 
+    nav .fa-solid { 
+        display: block; 
+        font-size: 25px; 
+        color: #fff; 
+        cursor: pointer; 
+        position: absolute; 
+        top: 20px; 
+        right: 20px; 
+        z-index: 1000; 
+    } 
+    nav ul .fa-circle-xmark { 
+        position: absolute; 
+        top: 20px; 
+        right: 20px; 
+        font-size: 30px; 
+        color: #fff; 
+        cursor: pointer; 
+    } 
+    nav ul { 
+        background: #a6a9cc; 
+        position: fixed; 
+        top: 0; 
+        right: -200px; 
+        width: 200px; 
+        height: 100vh; 
         padding-top: 80px;  
-        transition: right 0.5s;
+        transition: right 0.5s; 
         z-index: 999;     
-    }
-
-    nav ul li {
-        display: block;
-        margin: 25px;
-        text-align: center;
-    }
-
-    nav ul li a {
-        color: #fff;
-        font-size: 18px;
-    }
-
-    /* الـ columns تبقى عمودية */
-    .about-col-1,
-    .about-col-2,
-    .contact-left,
-    .contact-right {
-        flex-basis: 100%;
-    }
-
-    .about-col-1 {
-        margin-bottom: 30px;
-    }
-
+    } 
+    nav ul li { 
+        display: block; 
+        margin: 25px; 
+        text-align: center; 
+    } 
+    nav ul li a { 
+        color: #fff; 
+        font-size: 18px; 
+    } 
     
-    .Achivements-list,
-    .Highlights-list {
-        grid-template-columns: 1fr;  
-    }
-    #header{background-image: url(images/background2.png);}
+    .about-col-1, .about-col-2, .contact-left, .contact-right { 
+        flex-basis: 100%; 
+    } 
+    .about-col-1 { 
+        margin-bottom: 30px; 
+    } 
+    .Achivements-list, .Highlights-list { 
+        grid-template-columns: 1fr; 
+    } 
+    #header{background-image: url(images/background2.png);} 
 }
+
 
 
 
